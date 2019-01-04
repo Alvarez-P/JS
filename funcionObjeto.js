@@ -11,7 +11,7 @@ var p2 = {
     }
 
 function Saludo(persona){
-    var { nombre }, { edad } = persona
+    var { nombre, edad } = persona
     console.log(`Hola me llamo ${nombre} y tengo ${edad} años`)
 }
 
