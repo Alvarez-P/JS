@@ -10,7 +10,9 @@ const signoUsuario = signo => {
         case 'cáncer':
             console.log('eres cancer')
             break
-        default: 
+        default:
             console.log('No eres libra ni cancer')
+            break
     }
 }
+signoUsuario(signo)
